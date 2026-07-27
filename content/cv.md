@@ -42,13 +42,18 @@ The University of Zambia · Jun 2023 – Jan 2024
 *Trends in Temperature and Precipitation Extremes over Zambia for the Period 1981–2021.*
 Conducted climate data processing and statistical trend analysis.
 
-## Publications and manuscripts in preparation
+## Publications
+
+**Under review**
 
 - Mwanza, N. & Jain, S. *Statistical Projections of the Intra-Seasonal Rainfall
-  Characteristics Over Zambia for the Period 2021–2050.* Manuscript in preparation, from MSc
-  research.
+  Characteristics Over Zambia for the Period 2021–2050.* Submitted to *PLOS Climate*,
+  July 2026. From MSc research.
+
+**In preparation**
+
 - Zulu, M., Jain, S. & Mwanza, N. *Trends in Temperature and Precipitation Extremes over
-  Zambia for the Period 1981–2021.* Manuscript in preparation.
+  Zambia for the Period 1981–2021.*
 
 ## Independent work
 
@@ -70,7 +75,7 @@ Conducted climate data processing and statistical trend analysis.
 ## Academic qualifications
 
 **Diploma in Technical and Vocational Teaching** — Evelyn Hone College of Applied Arts and
-Commerce. Completed 2025, awaiting graduation.
+Commerce. Graduated July 2026.
 Competency-Based Education (CBE) and learner-centred assessment practice.
 
 **MSc, Statistics** — The University of Zambia, 2019 – 2024.
