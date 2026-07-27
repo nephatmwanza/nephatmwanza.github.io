@@ -73,15 +73,15 @@ pygmentsUseClasses = true
 
   # home page intro
   [params.homeInfoParams]
-    Title = 'Climate and development data analysis'
+    Title = 'Climate extremes and rainfall variability in Zambia'
     Content = """
-I am a statistician based in Zambia, working on rainfall variability, climate extremes and agricultural risk.
+I am a statistician based in Lusaka, working on rainfall variability, climate extremes and agricultural risk.
 
-My training is in statistics — an MSc on top of a BSc in Mathematics and Statistics. My work is in climate: gridded rainfall and temperature records, extreme-event indices, and trend analysis over southern Africa.
+My MSc in Statistics at the University of Zambia projected how the country's intra-seasonal rainfall characteristics shift between 1981–2000 and 2021–2050. I have also worked as a research assistant on trends in Zambian temperature and precipitation extremes over 1981–2021, with two manuscripts in preparation from that research.
 
-That combination matters more than either half. A lot of climate analysis is done by people who know the physics but treat the statistics as a formality, or by statisticians who handle the inference carefully but have no feel for what a number means on the ground. Working in both makes it possible to ask a better question — and to know when the data cannot answer it.
+A lot of climate analysis is done by people who know the physics but treat the statistics as a formality, or by statisticians who handle the inference carefully but have no feel for what a number means on the ground. Working in both makes it possible to ask a better question — and to know when the data cannot answer it.
 
-I am from the region I analyse, so the context behind the numbers is not something I have to look up.
+I analyse the country I live in, so the context behind the numbers is not something I have to look up.
 
 **Available for remote consulting and contract analysis.** [Get in touch](/contact/), or start with [the Zambian rainfall extremes analysis](/projects/zambia-rainfall-extremes/).
 """

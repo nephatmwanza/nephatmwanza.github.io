@@ -1,98 +1,147 @@
 ---
 title: "Curriculum vitae"
 url: "/cv/"
-summary: "Statistician, climate and development data analysis. MSc Statistics, Zambia."
+summary: "Statistician and lecturer. MSc Statistics (University of Zambia), specialising in climate extremes and rainfall variability."
 ShowToc: true
 TocOpen: true
 ShowReadingTime: false
 hidemeta: true
 ---
 
-Statistician · climate and development data analysis · Zambia
+Statistician · climate extremes and rainfall variability · Lusaka, Zambia
 
 [nephatmwanza@gmail.com](mailto:nephatmwanza@gmail.com) ·
-[github.com/nephatmwanza](https://github.com/nephatmwanza)
+[LinkedIn](https://linkedin.com/in/nephat-mwanza-5553b01b7) ·
+[GitHub](https://github.com/nephatmwanza)
 
 ---
 
 ## Profile
 
-Statistician with an MSc in Statistics and applied experience in climate data analysis,
-working on rainfall variability, extreme-event indices and agricultural risk in southern
-Africa. Comfortable across the full pipeline: acquiring and processing multi-gigabyte gridded
-climate datasets, computing standard climate indices, applying robust non-parametric trend
-methods, and communicating results to non-specialist audiences. Based in Zambia and available
-for remote work.
+Statistician with an MSc in Statistics from the University of Zambia, specialising in climate
+extremes, rainfall variability and applied statistical modelling. My research has focused on
+Zambian intra-seasonal rainfall characteristics and on trends in temperature and precipitation
+extremes, using gridded observational and reanalysis datasets.
 
-## Technical skills
+Alongside the research I have over five years of lecturing experience in mathematics and
+statistics across accredited Zambian higher-education institutions, and I am a registered
+trained pedagogue with the Teaching Council of Zambia. That teaching background is a large
+part of why I care about communicating quantitative findings to people who have to act on
+them.
 
-**Climate data** — CDO (Climate Data Operators) · NetCDF · CHIRPS · ERA5 reanalysis · ETCCDI
-extreme indices · CMIP6 (familiar)
+Based in Lusaka and available for remote consulting and contract analysis.
 
-**Programming and analysis** — Python · NumPy · pandas · SciPy · matplotlib · xarray · Jupyter
-· SQL (learning)
+## Research experience
 
-**Geospatial** — GeoPandas · rasterio · shapefiles and GeoJSON · coordinate reference systems
-· zonal aggregation
+**Researcher — Climate and Nutrition Study**
+Collaboration Research and Innovation Organisation (CRIO) · Jan 2025 – Jun 2025
+*Assessing the Impact of Climate Change on Child Malnutrition in Zambia.*
 
-**Statistics** — non-parametric methods · Mann–Kendall and Theil–Sen · multiple-testing control
-· time-series trend analysis · statistical inference · experimental design
+**Research Assistant**
+The University of Zambia · Jun 2023 – Jan 2024
+*Trends in Temperature and Precipitation Extremes over Zambia for the Period 1981–2021.*
+Conducted climate data processing and statistical trend analysis.
 
-**Practice** — Git and GitHub · reproducible pipelines · Linux and bash · technical writing
+## Publications and manuscripts in preparation
 
-## Education
+- Mwanza, N. & Jain, S. *Statistical Projections of the Intra-Seasonal Rainfall
+  Characteristics Over Zambia for the Period 2021–2050.* Manuscript in preparation, from MSc
+  research.
+- Zulu, M., Jain, S. & Mwanza, N. *Trends in Temperature and Precipitation Extremes over
+  Zambia for the Period 1981–2021.* Manuscript in preparation.
 
-**MSc, Statistics** — ⟨add institution⟩, ⟨add years⟩
-*⟨Optional: dissertation title, key coursework, classification⟩*
-
-**BSc, Mathematics and Statistics** — ⟨add institution⟩, ⟨add years⟩
-*⟨Optional: classification, relevant coursework⟩*
-
-**Diploma, Technical and Vocational Teaching** — ⟨add institution⟩, ⟨add years⟩
-
-## Experience
-
-**⟨Add role title⟩** — ⟨add institution / organisation⟩, ⟨add dates⟩
-
-- ⟨What you taught or did, and at what level⟩
-- ⟨Scale — number of students, courses, or size of work⟩
-- ⟨Anything quantifiable⟩
-
-**⟨Add role title⟩** — ⟨add organisation⟩, ⟨add dates⟩
-
-- ⟨Responsibility or project⟩
-- ⟨Outcome or deliverable⟩
-
-*⟨Add any consultancy, research assistance, data collection or fieldwork here — short
-engagements count, especially with named organisations.⟩*
-
-## Selected work
+## Independent work
 
 **[Zambia rainy-season extremes: flood and dry-spell risk, 1981–2026](/projects/zambia-rainfall-extremes/)**
-— independent analysis, 2026 · [code on GitHub](https://github.com/nephatmwanza/zambia-rainfall-extremes)
+2026 · [code on GitHub](https://github.com/nephatmwanza/zambia-rainfall-extremes)
 
 - Processed 45 seasons of CHIRPS daily satellite rainfall and ERA5 reanalysis over Zambia,
-  from continental-scale source files to a district-level analysis grid.
+  from continental-scale source files to a province-level analysis grid.
 - Computed eight ETCCDI extreme-precipitation indices against a WMO-standard 1991–2020
   baseline, aggregated to province with area weighting.
 - Applied Mann–Kendall and Theil–Sen trend estimation with tie and serial-correlation
   corrections, plus Benjamini–Hochberg false-discovery-rate control.
 - Identified and corrected a calibration fault in the standard serial-correlation correction
   that was inflating the false-positive rate from 5% to 9.8%, and a silent data-loss defect in
-  a widely-used climate tool.
-- Published as a fully reproducible pipeline with documented notebook and written analysis for
-  non-specialist readers.
+  a widely-used climate data tool.
+- Published as a fully reproducible pipeline with a documented notebook and a written analysis
+  aimed at non-specialist readers.
 
-## Languages
+## Academic qualifications
 
-English — fluent. ⟨Add other languages⟩
+**Diploma in Technical and Vocational Teaching** — Evelyn Hone College of Applied Arts and
+Commerce. Completed 2025, awaiting graduation.
+Competency-Based Education (CBE) and learner-centred assessment practice.
 
-## References
+**MSc, Statistics** — The University of Zambia, 2019 – 2024.
+*Thesis: Statistical Projections of the Mean Changes in the Intra-Seasonal Rainfall
+Characteristics of Zambia from the Reference Period 1981–2000 to the Future Period 2021–2050.*
+
+**BSc, Mathematics and Statistics** — The University of Zambia, 2012 – 2017.
+
+**Full Grade 12 School Certificate** — Mukuba Secondary School, 2008 – 2010.
+
+## Teaching experience
+
+**Part-Time Lecturer** — Department of Mathematics, Statistics and Actuarial Science,
+The University of Zambia · Feb 2026 – present
+Tutorials and assessment for Analytical Geometry and Calculus, Introduction to Probability,
+and Foundation Mathematics & Statistics for Social Sciences.
+
+**Lecturer** — School of Business and Management Studies, Evelyn Hone College ·
+Mar 2024 – Jun 2025
+Business Statistics, Quantitative Analysis and Financial Mathematics. Developed lecture notes,
+tutorials and assessments in line with approved curricula; assessed coursework and provided
+academic guidance.
+
+**Tutor** — Department of Mathematics, Statistics and Actuarial Science, School of Natural and
+Applied Sciences, The University of Zambia · Feb 2023 – Nov 2024
+Tutorials, assessment and academic support in Foundation Mathematics & Statistics for Social
+Sciences.
+
+**Lecturer** — School of Medicine, Texila American University · Nov 2022 – Nov 2023
+Foundation Mathematics for undergraduate medical students. Developed lecture notes and
+assessed coursework and examinations.
+
+**Lecturer** — School of Business, Kenneth Kaunda Metropolitan University · Jun 2020 – Dec 2021
+Mathematical Analysis and Business Statistics.
+
+## Technical skills
+
+**Statistical software** — Python · R · SPSS · Minitab · CDO (Climate Data Operators)
+
+**Climate data** — NetCDF · CHIRPS · ERA5 reanalysis · ETCCDI extreme indices · CMIP6
+(familiar)
+
+**Python stack** — NumPy · pandas · SciPy · matplotlib · xarray · GeoPandas · Jupyter
+
+**Statistics** — non-parametric methods · Mann–Kendall and Theil–Sen · multiple-testing control
+· time-series trend analysis · statistical modelling · experimental design
+
+**Research and communication** — data analysis and visualisation · scientific writing ·
+proposal development · LaTeX and Beamer · reproducible pipelines · Git and GitHub
+
+**Teaching technologies** — Moodle · PowerPoint · Excel
+
+## Professional training and certifications
+
+**2023** — Enhancing Forecasting Capacities and Developing Crop Capability Prediction.
+CCARDESA.
+
+**2021** — Future Climate for Africa and GCRF African SWIFT Online Python Training.
+GCRF African SWIFT.
+
+**2019** — Experimental Design, Reading and Writing Scientific Papers. TReND in Africa.
+
+## Research interests
+
+Applied statistics · climate extremes and variability · climate change impacts · health and
+nutrition statistics · statistical modelling and experimental design
+
+## Professional registration
+
+Registered with the Teaching Council of Zambia.
+
+## Referees
 
 Available on request.
-
----
-
-> **Note to self — delete this block before sharing.** Every ⟨angle-bracketed item⟩ above
-> needs your real details. Dates, institutions and role titles matter most: a CV with visible
-> gaps reads worse than a shorter one without them. Delete any section you cannot fill.
