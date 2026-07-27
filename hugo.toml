@@ -1,0 +1,120 @@
+baseURL = 'https://nephatmwanza.github.io/'
+locale = 'en-gb'
+title = 'Nephat Mwanza'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+pygmentsUseClasses = true
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# ---------------------------------------------------------------- menu
+[[menu.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/projects/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Writing'
+  url = '/posts/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'cv'
+  name = 'CV'
+  url = '/cv/'
+  weight = 40
+
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact'
+  url = '/contact/'
+  weight = 50
+
+[[menu.main]]
+  identifier = 'search'
+  name = 'Search'
+  url = '/search/'
+  weight = 60
+
+# ---------------------------------------------------------------- params
+[params]
+  env = 'production'
+  author = 'Nephat Mwanza'
+  description = 'Statistician working on climate and development data in Zambia. Rainfall variability, climate extremes and agricultural risk.'
+  keywords = ['climate data', 'statistics', 'Zambia', 'rainfall', 'climate extremes', 'development data']
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = false
+  hidemeta = false
+  comments = false
+  disableScrollToTop = false
+
+  # home page intro
+  [params.homeInfoParams]
+    Title = 'Climate and development data analysis'
+    Content = """
+I am a statistician based in Zambia, working on rainfall variability, climate extremes and agricultural risk.
+
+My training is in statistics — an MSc on top of a BSc in Mathematics and Statistics. My work is in climate: gridded rainfall and temperature records, extreme-event indices, and trend analysis over southern Africa.
+
+That combination matters more than either half. A lot of climate analysis is done by people who know the physics but treat the statistics as a formality, or by statisticians who handle the inference carefully but have no feel for what a number means on the ground. Working in both makes it possible to ask a better question — and to know when the data cannot answer it.
+
+I am from the region I analyse, so the context behind the numbers is not something I have to look up.
+
+**Available for remote consulting and contract analysis.** [Get in touch](/contact/), or start with [the Zambian rainfall extremes analysis](/projects/zambia-rainfall-extremes/).
+"""
+
+  [[params.socialIcons]]
+    name = 'email'
+    title = 'Email me'
+    url = 'mailto:nephatmwanza@gmail.com'
+
+  [[params.socialIcons]]
+    name = 'github'
+    title = 'Code on GitHub'
+    url = 'https://github.com/nephatmwanza'
+
+  [params.assets]
+    disableHLJS = true
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    threshold = 0.4
+    minMatchCharLength = 2
+    keys = ['title', 'permalink', 'summary', 'content']
+
+# ---------------------------------------------------------------- output
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']   # JSON is required for the search page
+
+[markup.goldmark.renderer]
+  unsafe = true                    # allow raw HTML in markdown (figures, tables)
+
+[markup.highlight]
+  noClasses = false
+
+[taxonomies]
+  tag = 'tags'
