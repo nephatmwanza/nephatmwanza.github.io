@@ -19,9 +19,12 @@ and analysis notebooks.
 
 ## What I can help with
 
-**Climate data processing.** Acquiring, subsetting and validating gridded rainfall and
-temperature datasets — CHIRPS, ERA5, CMIP6 — down to the region and resolution a project
-actually needs.
+**Climate data processing.** Acquiring, subsetting and validating gridded climate datasets
+down to the region and resolution a project actually needs:
+
+- **Precipitation products** — CHIRPS (satellite–gauge), GPCC (gauge-based)
+- **Multi-variable observational and reanalysis records** — CRU, ERA5
+- **Climate model output** — CMIP5 regional climate models, CMIP6
 
 **Climate risk and extremes analysis.** Standard ETCCDI indices, dry- and wet-spell
 statistics, intra-seasonal rainfall characteristics, and trend detection using methods that
@@ -47,6 +50,6 @@ re-runnable code, and writing results up for non-specialist readers.
 | **Based in** | Lusaka, Zambia (Central Africa Time, UTC+2) |
 | **Working remotely** | Yes — overlapping European and most African time zones comfortably |
 | **Languages** | English |
-| **Availability** | ⟨add a line here, e.g. "Available now, part- or full-time"⟩ |
+| **Availability** | Available now — open to short consulting engagements, contract analysis, and longer-term or full-time roles |
 
 *Phone number and referee details are available on request — I keep them off the public site.*

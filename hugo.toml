@@ -83,7 +83,16 @@ A lot of climate analysis is done by people who know the physics but treat the s
 
 I analyse the country I live in, so the context behind the numbers is not something I have to look up.
 
-**Available for remote consulting and contract analysis.** [Get in touch](/contact/), or start with [the Zambian rainfall extremes analysis](/projects/zambia-rainfall-extremes/).
+<div class="home-cta">
+  <a class="btn-primary" href="/projects/zambia-rainfall-extremes/">Read the rainfall analysis</a>
+  <a class="btn-ghost" href="/contact/">Get in touch</a>
+</div>
+
+<div class="home-facts">
+  <div><strong>MSc Statistics</strong><span>University of Zambia — intra-seasonal rainfall projections</span></div>
+  <div><strong>Under review</strong><span>First-author paper submitted to <em>PLOS Climate</em></span></div>
+  <div><strong>5+ years</strong><span>Lecturing statistics across Zambian institutions</span></div>
+</div>
 """
 
   [[params.socialIcons]]

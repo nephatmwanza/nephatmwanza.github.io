@@ -1,0 +1,267 @@
+/* ---------------------------------------------------------------------------
+   Custom styling over PaperMod.
+   Everything in assets/css/extended/ is bundled after the theme's own CSS, so
+   these rules win without forking the theme.
+
+   Three goals: a slightly wider, calmer reading measure; typography with more
+   air than the default; and one accent blue carried through links, rules and
+   figure treatment — the same blue used in the analysis figures, so the site
+   and the charts read as one body of work.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --main-width: 780px;          /* a touch wider than PaperMod's 720 */
+  --nav-width: 1100px;
+  --gap: 26px;
+  --radius: 10px;
+
+  --accent:        #2a78d6;     /* matches the figures */
+  --accent-deep:   #1c5cab;
+  --accent-wash:   #eef4fd;
+
+  --link-color: var(--accent);
+  --link-hover-color: var(--accent-deep);
+}
+
+:root[data-theme="dark"] {
+  --accent:        #5ea0ee;
+  --accent-deep:   #8bbcf5;
+  --accent-wash:   #17222f;
+
+  --link-color: var(--accent);
+  --link-hover-color: var(--accent-deep);
+}
+
+/* ---------- typography ---------------------------------------------------- */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: -0.002em;
+}
+
+.post-content p,
+.post-content li { line-height: 1.75; }
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-title,
+.entry-header h2 {
+  letter-spacing: -0.021em;
+  line-height: 1.22;
+}
+
+.post-content h2 {
+  margin-top: 2.6rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-content h3 { margin-top: 2rem; }
+
+.post-title { font-size: 2.1rem; }
+
+/* first paragraph of a page reads as a standfirst */
+.post-content > p:first-of-type {
+  font-size: 1.12rem;
+  color: var(--primary);
+  line-height: 1.65;
+}
+
+/* ---------- links --------------------------------------------------------- */
+
+.post-content a {
+  color: var(--accent);
+  box-shadow: 0 1px 0 var(--accent);
+  text-decoration: none;
+}
+.post-content a:hover {
+  color: var(--accent-deep);
+  box-shadow: 0 2px 0 var(--accent-deep);
+}
+
+/* ---------- home / profile ------------------------------------------------ */
+
+.first-entry {
+  min-height: auto;
+  padding: 2.2rem 0 1.4rem;
+  margin-bottom: 0;
+}
+.first-entry .entry-header h1 {
+  font-size: 2.15rem;
+  letter-spacing: -0.024em;
+  margin-bottom: .8rem;
+}
+.first-entry .entry-content {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  -webkit-line-clamp: unset;     /* PaperMod truncates this by default */
+  color: var(--content);
+  opacity: 1;
+}
+.first-entry .entry-content p { margin-bottom: .95rem; }
+
+/* ---------- post list cards ----------------------------------------------- */
+
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.5rem;
+  transition: border-color .18s ease, transform .18s ease;
+  background: var(--entry);
+}
+.post-entry:hover {
+  border-color: var(--accent);
+  transform: none;
+}
+.post-entry .entry-hint { color: var(--secondary); }
+
+.entry-cover img,
+.post-entry .entry-cover img {
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+/* ---------- figures ------------------------------------------------------- */
+
+.post-content figure {
+  margin: 2.2rem 0;
+}
+.post-content figure img {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;              /* charts are drawn on a light surface */
+}
+.post-content figure figcaption {
+  font-size: .9rem;
+  line-height: 1.6;
+  color: var(--secondary);
+  margin-top: .75rem;
+  text-align: left;
+}
+.post-content figure figcaption p { margin: 0; }
+
+/* the cover image at the top of a post */
+.entry-cover figcaption { text-align: left; }
+
+/* ---------- blockquote as a callout --------------------------------------- */
+
+.post-content blockquote {
+  border-inline-start: 3px solid var(--accent);
+  background: var(--accent-wash);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1rem 1.25rem;
+  margin: 1.9rem 0;
+  font-style: normal;
+}
+.post-content blockquote p:last-child { margin-bottom: 0; }
+
+/* ---------- tables -------------------------------------------------------- */
+
+.post-content table {
+  font-size: .95rem;
+  border: none;
+}
+.post-content table th {
+  background: var(--code-bg);
+  font-weight: 600;
+  text-align: left;
+}
+[data-theme="dark"] .post-content table th { background: var(--entry); }
+.post-content table th,
+.post-content table td {
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: .6rem .75rem;
+  vertical-align: top;
+}
+.post-content table tr:last-child td { border-bottom: none; }
+
+/* ---------- nav ----------------------------------------------------------- */
+
+#menu li a { transition: color .15s ease; }
+#menu li a:hover { color: var(--accent); }
+#menu .active { border-bottom: 2px solid var(--accent); }
+
+.logo a { letter-spacing: -0.02em; }
+
+/* ---------- tags ---------------------------------------------------------- */
+
+.post-tags a,
+.terms-tags a {
+  background: var(--accent-wash);
+  color: var(--accent-deep);
+  border-radius: 5px;
+  font-size: .82rem;
+  padding: .25rem .65rem;
+  border: 1px solid transparent;
+}
+.post-tags a:hover,
+.terms-tags a:hover {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+
+/* ---------- horizontal rule ----------------------------------------------- */
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.8rem 0;
+}
+
+/* ---------- small screens ------------------------------------------------- */
+
+@media (max-width: 40rem) {
+  body { font-size: 16px; }
+  .post-title { font-size: 1.7rem; }
+  .first-entry .entry-header h1 { font-size: 1.75rem; }
+  .post-entry { padding: 1.1rem 1.15rem; }
+}
+
+/* ---------- home call-to-action + credentials strip ------------------------ */
+
+.home-cta {
+  display: flex;
+  gap: .7rem;
+  flex-wrap: wrap;
+  margin: 1.6rem 0 .4rem;
+}
+.home-cta a {
+  display: inline-block;
+  padding: .58rem 1.15rem;
+  border-radius: 7px;
+  font-size: .95rem;
+  font-weight: 550;
+  text-decoration: none;
+  box-shadow: none !important;
+  border: 1px solid var(--accent);
+  transition: background .15s ease, color .15s ease;
+}
+.home-cta a.btn-primary { background: var(--accent); color: #fff; }
+.home-cta a.btn-primary:hover { background: var(--accent-deep); border-color: var(--accent-deep); color: #fff; }
+.home-cta a.btn-ghost { color: var(--accent); background: transparent; }
+.home-cta a.btn-ghost:hover { background: var(--accent-wash); color: var(--accent-deep); }
+
+.home-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 .5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.home-facts div { display: flex; flex-direction: column; gap: .15rem; }
+.home-facts strong {
+  font-size: .95rem;
+  color: var(--primary);
+  letter-spacing: -0.01em;
+}
+.home-facts span {
+  font-size: .86rem;
+  color: var(--secondary);
+  line-height: 1.5;
+}

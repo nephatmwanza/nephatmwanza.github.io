@@ -86,37 +86,27 @@ Characteristics of Zambia from the Reference Period 1981–2000 to the Future Pe
 
 **Full Grade 12 School Certificate** — Mukuba Secondary School, 2008 – 2010.
 
-## Teaching experience
+## Teaching
 
-**Part-Time Lecturer** — Department of Mathematics, Statistics and Actuarial Science,
-The University of Zambia · Feb 2026 – present
-Tutorials and assessment for Analytical Geometry and Calculus, Introduction to Probability,
-and Foundation Mathematics & Statistics for Social Sciences.
+**Lecturer and Tutor in Mathematics and Statistics** · 2020 – present
 
-**Lecturer** — School of Business and Management Studies, Evelyn Hone College ·
-Mar 2024 – Jun 2025
-Business Statistics, Quantitative Analysis and Financial Mathematics. Developed lecture notes,
-tutorials and assessments in line with approved curricula; assessed coursework and provided
-academic guidance.
+Over five years teaching undergraduate mathematics and statistics across four accredited
+Zambian institutions: **the University of Zambia** (tutor, Department of Mathematics,
+Statistics and Actuarial Science, 2023 – present), **Evelyn Hone College**, **Texila American
+University** and **Kenneth Kaunda Metropolitan University**.
 
-**Tutor** — Department of Mathematics, Statistics and Actuarial Science, School of Natural and
-Applied Sciences, The University of Zambia · Feb 2023 – Nov 2024
-Tutorials, assessment and academic support in Foundation Mathematics & Statistics for Social
-Sciences.
-
-**Lecturer** — School of Medicine, Texila American University · Nov 2022 – Nov 2023
-Foundation Mathematics for undergraduate medical students. Developed lecture notes and
-assessed coursework and examinations.
-
-**Lecturer** — School of Business, Kenneth Kaunda Metropolitan University · Jun 2020 – Dec 2021
-Mathematical Analysis and Business Statistics.
+Courses have included Analytical Geometry and Calculus, Introduction to Probability,
+Foundation Mathematics and Statistics for Social Sciences, Business Statistics, Quantitative
+Analysis, Financial Mathematics and Mathematical Analysis — alongside developing lecture
+notes, tutorials and assessments to approved curricula, and supporting students academically.
 
 ## Technical skills
 
 **Statistical software** — Python · R · SPSS · Minitab · CDO (Climate Data Operators)
 
-**Climate data** — NetCDF · CHIRPS · ERA5 reanalysis · ETCCDI extreme indices · CMIP6
-(familiar)
+**Climate data** — NetCDF · precipitation products (CHIRPS, GPCC) · multi-variable
+observational and reanalysis records (CRU, ERA5) · climate model output (CMIP5 regional
+climate models, CMIP6) · ETCCDI extreme indices
 
 **Python stack** — NumPy · pandas · SciPy · matplotlib · xarray · GeoPandas · Jupyter
 
