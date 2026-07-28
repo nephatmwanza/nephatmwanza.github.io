@@ -11,7 +11,7 @@ hidemeta: true
 Statistician · climate extremes and rainfall variability · Lusaka, Zambia
 
 [nephatmwanza@gmail.com](mailto:nephatmwanza@gmail.com) ·
-[LinkedIn](https://linkedin.com/in/nephat-mwanza-5553b01b7) ·
+[LinkedIn](https://www.linkedin.com/in/nephatmwanza) ·
 [GitHub](https://github.com/nephatmwanza)
 
 ---

@@ -12,7 +12,7 @@ I am available for remote consulting and contract analysis, and open to longer-t
 **Email** — [nephatmwanza@gmail.com](mailto:nephatmwanza@gmail.com). The most reliable way to
 reach me; I reply within a working day.
 
-**LinkedIn** — [linkedin.com/in/nephat-mwanza-5553b01b7](https://linkedin.com/in/nephat-mwanza-5553b01b7)
+**LinkedIn** — [linkedin.com/in/nephatmwanza](https://www.linkedin.com/in/nephatmwanza)
 
 **GitHub** — [github.com/nephatmwanza](https://github.com/nephatmwanza). Code, data pipelines
 and analysis notebooks.

@@ -126,6 +126,11 @@ I analyse the country I live in, so the context behind the numbers is not someth
     title = 'Code on GitHub'
     url = 'https://github.com/nephatmwanza'
 
+  [[params.socialIcons]]
+    name = 'linkedin'
+    title = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/nephatmwanza'
+
   [params.assets]
     disableHLJS = true
 
