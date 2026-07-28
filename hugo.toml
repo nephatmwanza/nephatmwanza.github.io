@@ -83,6 +83,14 @@ A lot of climate analysis is done by people who know the physics but treat the s
 
 I analyse the country I live in, so the context behind the numbers is not something I have to look up.
 
+<a class="home-hero" href="/projects/zambia-rainfall-extremes/">
+  <picture>
+    <source srcset="/img/home-hero.webp" type="image/webp">
+    <img src="/img/home-hero.png" width="1100" height="392" alt="Four maps of Zambia showing the trend per decade in seasonal rainfall total, longest dry spell, longest wet spell and very-wet-day rainfall">
+  </picture>
+  <span>How Zambia's rainy season has changed, 1981&ndash;2026 — blue is wetter, red is drier</span>
+</a>
+
 <div class="home-cta">
   <a class="btn-primary" href="/projects/zambia-rainfall-extremes/">Read the rainfall analysis</a>
   <a class="btn-ghost" href="/contact/">Get in touch</a>

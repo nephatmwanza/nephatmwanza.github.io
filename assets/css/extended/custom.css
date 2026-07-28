@@ -265,3 +265,33 @@ body {
   color: var(--secondary);
   line-height: 1.5;
 }
+
+/* ---------- home hero image ----------------------------------------------- */
+/* Stands in for a portrait: for a data analyst the work is the stronger
+   visual identity, and it doubles as a route into the featured project. */
+
+a.home-hero {
+  display: block;
+  margin: 1.9rem 0 .4rem;
+  text-decoration: none;
+  box-shadow: none !important;
+  border-radius: var(--radius);
+}
+a.home-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+  transition: border-color .18s ease;
+}
+a.home-hero:hover img { border-color: var(--accent); }
+a.home-hero span {
+  display: block;
+  margin-top: .6rem;
+  font-size: .86rem;
+  line-height: 1.5;
+  color: var(--secondary);
+}
+a.home-hero:hover span { color: var(--accent); }
