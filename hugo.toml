@@ -100,13 +100,14 @@ I analyse the country I live in, so the context behind the numbers is not someth
 </a>
 
 <div class="home-cta">
-  <a class="btn-primary" href="/projects/">Read the two studies</a>
+  <a class="btn-primary" href="/projects/">Read the three studies</a>
   <a class="btn-ghost" href="/contact/">Get in touch</a>
 </div>
 
 <p class="home-code">Code and data on GitHub:
   <a href="https://github.com/nephatmwanza/zambia-rainfall-extremes">zambia-rainfall-extremes</a> ·
-  <a href="https://github.com/nephatmwanza/zambia-temperature-extremes">zambia-temperature-extremes</a>
+  <a href="https://github.com/nephatmwanza/zambia-temperature-extremes">zambia-temperature-extremes</a> ·
+  <a href="https://github.com/nephatmwanza/zambia-cmip6-evaluation">zambia-cmip6-evaluation</a>
 </p>
 
 <div class="home-facts">
