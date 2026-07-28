@@ -102,7 +102,7 @@ notes, tutorials and assessments to approved curricula, and supporting students 
 
 ## Technical skills
 
-**Statistical software** — Python · SPSS · Minitab · CDO (Climate Data Operators)
+**Statistical software** — Python · CDO (Climate Data Operators)
 
 **Climate data** — NetCDF · precipitation products (CHIRPS, GPCC) · multi-variable
 observational and reanalysis records (CRU, ERA5) · climate model output (CMIP5 regional
@@ -115,8 +115,6 @@ climate models, CMIP6) · ETCCDI extreme indices
 
 **Research and communication** — data analysis and visualisation · scientific writing ·
 proposal development · LaTeX and Beamer · reproducible pipelines · Git and GitHub
-
-**Teaching technologies** — Moodle · PowerPoint · Excel
 
 ## Professional training and certifications
 

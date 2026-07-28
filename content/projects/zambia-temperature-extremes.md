@@ -23,6 +23,15 @@ one thing: temperature instead of rainfall.
 
 The answer came back completely different.
 
+| | |
+|---|---|
+| **Data** | ERA5 daily maximum temperature, 0.25°, 1981–2025 |
+| **Coverage** | 45 years, annual and October–March growing season |
+| **Headline** | The hottest day of the year is rising in all ten provinces |
+| **Code** | [github.com/nephatmwanza/zambia-temperature-extremes](https://github.com/nephatmwanza/zambia-temperature-extremes) |
+
+---
+
 ## What the data says
 
 {{< figure src="/img/heat2_trend_maps.png" alt="Four maps of Zambia showing trend per decade in mean daily maximum temperature, hottest day of the year, days above the 90th percentile, and days above 35 degrees Celsius" caption="Trend per decade, 1981–2025. Red is warming, blue is cooling. The dark stippling marks cells where the trend is statistically significant — compare how much of the map is stippled here against the equivalent rainfall map." >}}

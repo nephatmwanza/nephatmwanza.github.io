@@ -1,0 +1,18 @@
+{{/*
+  Visitor analytics.
+
+  Enabled by setting `params.goatcounter` in hugo.toml to your GoatCounter site code.
+  Leave it unset and nothing is injected at all - no script, no requests, no change.
+
+  GoatCounter was chosen over Google Analytics for three reasons that matter here:
+    - it sets no cookies and collects no personal data, so no consent banner is needed
+      and the site stays lawful for EU visitors without extra work;
+    - the script is ~3 KB against ~50 KB for GA, which matters on a slow connection;
+    - it is far less likely to be blocked. This site's audience is technical and
+      institutional, exactly the people who run ad blockers, so GA would systematically
+      undercount the visitors that matter most.
+*/}}
+{{- with site.Params.goatcounter }}
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{{- end }}

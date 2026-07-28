@@ -13,3 +13,8 @@ as a *trend*, and note that the two compound inside the growing season.
 
 Code and data are public wherever the sources allow, and each study is written up so the
 finding survives being read by someone who is not a specialist.
+
+| Study | Read | Code |
+|---|---|---|
+| **Rainfall** — CHIRPS, 45 seasons | [Zambia's rain is changing shape, not amount](/projects/zambia-rainfall-extremes/) | [github.com/nephatmwanza/zambia-rainfall-extremes](https://github.com/nephatmwanza/zambia-rainfall-extremes) |
+| **Temperature** — ERA5, 45 years | [Heat is rising where rainfall is not](/projects/zambia-temperature-extremes/) | [github.com/nephatmwanza/zambia-temperature-extremes](https://github.com/nephatmwanza/zambia-temperature-extremes) |

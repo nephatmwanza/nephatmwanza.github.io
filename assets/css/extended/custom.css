@@ -339,3 +339,12 @@ a.home-hero img { aspect-ratio: 1100 / 392; }
    only when every one of its cells is empty, so real headers are untouched.
    Browsers without :has() simply show the old empty row - harmless. */
 .post-content thead:not(:has(th:not(:empty))) { display: none; }
+
+/* repo links under the home call-to-action */
+.home-code {
+  font-size: .88rem;
+  color: var(--secondary);
+  margin: .9rem 0 0;
+}
+.home-code a { color: var(--accent); box-shadow: none !important; }
+.home-code a:hover { color: var(--accent-deep); text-decoration: underline; }

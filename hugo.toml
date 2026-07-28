@@ -94,9 +94,14 @@ I analyse the country I live in, so the context behind the numbers is not someth
 </a>
 
 <div class="home-cta">
-  <a class="btn-primary" href="/projects/zambia-rainfall-extremes/">Read the rainfall analysis</a>
+  <a class="btn-primary" href="/projects/">Read the two studies</a>
   <a class="btn-ghost" href="/contact/">Get in touch</a>
 </div>
+
+<p class="home-code">Code and data on GitHub:
+  <a href="https://github.com/nephatmwanza/zambia-rainfall-extremes">zambia-rainfall-extremes</a> ·
+  <a href="https://github.com/nephatmwanza/zambia-temperature-extremes">zambia-temperature-extremes</a>
+</p>
 
 <div class="home-facts">
   <div><strong>MSc Statistics</strong><span>University of Zambia — intra-seasonal rainfall projections</span></div>
@@ -114,6 +119,11 @@ I analyse the country I live in, so the context behind the numbers is not someth
     name = 'github'
     title = 'Code on GitHub'
     url = 'https://github.com/nephatmwanza'
+
+  # Visitor analytics: set this to your GoatCounter site code to switch it on, e.g.
+  #   goatcounter = 'nephatmwanza'
+  # Leaving it commented out injects nothing at all. See layouts/partials/extend_head.html
+  # goatcounter = ''
 
   [params.assets]
     disableHLJS = true
