@@ -85,8 +85,10 @@ I analyse the country I live in, so the context behind the numbers is not someth
 
 <a class="home-hero" href="/projects/zambia-rainfall-extremes/">
   <picture>
+    <source media="(max-width: 640px)" srcset="/img/home-hero-mobile.webp" type="image/webp">
+    <source media="(max-width: 640px)" srcset="/img/home-hero-mobile.png" type="image/png">
     <source srcset="/img/home-hero.webp" type="image/webp">
-    <img src="/img/home-hero.png" width="1100" height="392" alt="Four maps of Zambia showing the trend per decade in seasonal rainfall total, longest dry spell, longest wet spell and very-wet-day rainfall">
+    <img src="/img/home-hero.png" alt="Four maps of Zambia showing the trend per decade in seasonal rainfall total, longest dry spell, longest wet spell and very-wet-day rainfall">
   </picture>
   <span>How Zambia's rainy season has changed, 1981&ndash;2026 — blue is wetter, red is drier</span>
 </a>

@@ -295,3 +295,47 @@ a.home-hero span {
   color: var(--secondary);
 }
 a.home-hero:hover span { color: var(--accent); }
+
+/* ---------- mobile fixes -------------------------------------------------- */
+/* PaperMod underlines links inside the home intro; the buttons and the hero
+   are links but must not look like body links. */
+
+.first-entry .entry-content a.home-hero,
+.first-entry .entry-content a.home-hero span,
+.first-entry .entry-content .home-cta a,
+a.home-hero,
+a.home-hero span,
+.home-cta a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+.home-cta a { box-shadow: none !important; }
+
+/* Reserve the right space before the image loads, so the page does not jump.
+   The two sources have different aspect ratios, so the ratio switches with the
+   same breakpoint used by <picture>. */
+a.home-hero img { aspect-ratio: 1100 / 392; }
+@media (max-width: 640px) {
+  a.home-hero img { aspect-ratio: 800 / 1040; }
+  a.home-hero { margin-top: 1.5rem; }
+}
+
+/* let the nav scroll sideways rather than clip on narrow screens */
+#menu {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+#menu::-webkit-scrollbar { display: none; }
+
+@media (max-width: 640px) {
+  .home-facts { gap: .9rem; }
+  .home-cta { gap: .55rem; }
+  .home-cta a { flex: 1 1 auto; text-align: center; }
+}
+
+/* Label/value tables are written with a blank markdown header row, which Hugo
+   renders as an empty <thead> and PaperMod paints as a grey band. Hide a thead
+   only when every one of its cells is empty, so real headers are untouched.
+   Browsers without :has() simply show the old empty row - harmless. */
+.post-content thead:not(:has(th:not(:empty))) { display: none; }
