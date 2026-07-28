@@ -3,11 +3,13 @@ title: "Projects"
 description: "Applied climate and development analysis, with code and data public wherever the sources allow."
 ---
 
-Applied climate and development analysis. Code and data are public wherever the sources
-allow it, and each project is written up so the finding survives being read by someone who
-is not a specialist.
+Two studies of Zambian climate extremes, deliberately built on the same pipeline — same
+country, same 45 years, same baseline, same statistics — so that the difference between their
+results is a real difference in the climate, not an artefact of different choices.
 
-**In progress:** extending the Zambian rainfall work with temperature extremes from ERA5
-reanalysis (warm-spell duration and related heat indices), and a small comparison against
-CMIP6 model output to test how well the models reproduce the observed rainfall pattern over
-Zambia.
+**Rainfall is reorganising without a detectable trend. Temperature is warming unambiguously.**
+Together they say something neither says alone: plan for rainfall *variability*, plan for heat
+as a *trend*, and note that the two compound inside the growing season.
+
+Code and data are public wherever the sources allow, and each study is written up so the
+finding survives being read by someone who is not a specialist.
