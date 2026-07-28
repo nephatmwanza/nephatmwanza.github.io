@@ -59,6 +59,12 @@ pygmentsUseClasses = true
   description = 'Statistician working on climate and development data in Zambia. Rainfall variability, climate extremes and agricultural risk.'
   keywords = ['climate data', 'statistics', 'Zambia', 'rainfall', 'climate extremes', 'development data']
   defaultTheme = 'auto'
+  # Visitor analytics. Set to '' to switch off; nothing is injected when unset.
+  # Dashboard: https://nephatmwanza.goatcounter.com
+  # NOTE: this must stay above the first [params.*] sub-table. In TOML a key placed
+  # after [[params.socialIcons]] belongs to THAT table, not to [params] - which is
+  # exactly how this silently failed the first time.
+  goatcounter = 'nephatmwanza'
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -119,11 +125,6 @@ I analyse the country I live in, so the context behind the numbers is not someth
     name = 'github'
     title = 'Code on GitHub'
     url = 'https://github.com/nephatmwanza'
-
-  # Visitor analytics: set this to your GoatCounter site code to switch it on, e.g.
-  #   goatcounter = 'nephatmwanza'
-  # Leaving it commented out injects nothing at all. See layouts/partials/extend_head.html
-  # goatcounter = ''
 
   [params.assets]
     disableHLJS = true
