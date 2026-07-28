@@ -52,13 +52,14 @@ A negative result is always vulnerable to the same objection: *maybe your method
 not detect anything.* The only convincing answer is to show the method finding something
 elsewhere — using the same code, on the same place, over the same years.
 
-After correcting for the fact that testing a thousand grid cells throws up false positives by
-chance:
+So I measured it over the identical October–March window the rainfall study used — the same
+seasons, the same cells, nothing but the variable different — and corrected for the fact that
+testing a thousand grid cells throws up false positives by chance:
 
 | | Grid cells with a trend that survives correction |
 |---|---|
-| Hottest day of the year | **987** of about 1,009 |
-| Days above 35 °C | **720** |
+| Hottest day of the year | **969** of about 1,009 |
+| Days above 35 °C | **669** |
 | **Every rainfall measure** | **0** |
 
 The pipeline detects trends perfectly well when they are there. Zambia's rainfall genuinely

@@ -155,5 +155,5 @@ analysis notebook with all outputs, and the derived datasets.
 
 > **A fair question about the result above:** if almost nothing is significant, was the test
 > simply too weak? I answered it by running the identical pipeline on temperature over the
-> same country and the same years — and finding **987 significant grid cells** against
-> **zero** here. [See the temperature study →](/projects/zambia-temperature-extremes/)
+> same country and the same October–March window — and finding **969 significant grid
+> cells** against **zero** here. [See the temperature study →](/projects/zambia-temperature-extremes/)
