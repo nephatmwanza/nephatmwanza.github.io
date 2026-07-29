@@ -11,9 +11,9 @@ I am a statistician based in Lusaka, working on climate data and what it means f
 living under it.
 
 My MSc in Statistics at the University of Zambia was on Zambian rainfall — specifically,
-statistical projections of how the country's intra-seasonal rainfall characteristics change
-from a 1981–2000 reference period to 2021–2050. That work is now under review at
-*PLOS Climate*. Before and around it I worked as a research assistant on trends in temperature
+statistical projections of the mean changes in intra-seasonal rainfall characteristics over
+Zambia from the reference period 1971–2000 to the future 2021–2050. That work is now under
+review at *PLOS Climate*. Before and around it I worked as a research assistant on trends in temperature
 and precipitation extremes over Zambia for 1981–2021, handling the climate data processing and
 trend analysis; a second manuscript from that project is in preparation.
 

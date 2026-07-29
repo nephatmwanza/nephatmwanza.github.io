@@ -46,9 +46,9 @@ Conducted climate data processing and statistical trend analysis.
 
 **Under review**
 
-- Mwanza, N. & Jain, S. *Statistical Projections of the Intra-Seasonal Rainfall
-  Characteristics Over Zambia for the Period 2021–2050.* Submitted to *PLOS Climate*,
-  July 2026. From MSc research.
+- Mwanza, N. & Jain, S. *Statistical projections of the mean changes in intra-seasonal
+  rainfall characteristics over Zambia from the reference period 1971–2000 to the future
+  2021–2050.* Submitted to *PLOS Climate*, July 2026. From MSc research.
 
 **In preparation**
 
@@ -79,8 +79,8 @@ Commerce. Graduated July 2026.
 Competency-Based Education (CBE) and learner-centred assessment practice.
 
 **MSc, Statistics** — The University of Zambia, 2019 – 2024.
-*Thesis: Statistical Projections of the Mean Changes in the Intra-Seasonal Rainfall
-Characteristics of Zambia from the Reference Period 1981–2000 to the Future Period 2021–2050.*
+*Thesis: Statistical projections of the mean changes in intra-seasonal rainfall
+characteristics over Zambia from the reference period 1971–2000 to the future 2021–2050.*
 
 **BSc, Mathematics and Statistics** — The University of Zambia, 2012 – 2017.
 
